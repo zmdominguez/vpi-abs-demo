@@ -13,10 +13,14 @@
         <item name="android:titleTextStyle">@style/TitleText</item>
     </style>
     
-    <!-- Title of tabs -->
+    <!-- Styling the tabs -->
     <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
         <item name="android:textSize">15dip</item>
         <item name="android:textColor">#FFB33E3E</item>
+        
+         <!--  Lines under tabs -->
+        <item name="background">@drawable/tab_indicator_ab_styling_abs</item>
+        <item name="android:background">@drawable/tab_indicator_ab_styling_abs</item>
     </style>
     
     <!-- Title on action bar -->
@@ -24,4 +28,6 @@
         <item name="android:textColor">@android:color/darker_gray</item>
         <item name="android:textSize">17dip</item>
     </style>
+    
+     
 </resources>
