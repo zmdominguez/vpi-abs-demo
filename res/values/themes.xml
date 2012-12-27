@@ -8,18 +8,22 @@
        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
     </style>
     
-    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid">
         <item name="titleTextStyle">@style/TitleText</item>
         <item name="android:titleTextStyle">@style/TitleText</item>
     </style>
     
     <!-- Styling the tabs -->
     <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
-        <item name="android:textSize">15dip</item>
-        <item name="android:textColor">#FFB33E3E</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFA3441B</item>
+        
+        <!-- Dividers between tabs -->
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">8dp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
         
          <!--  Lines under tabs -->
-        <item name="background">@drawable/tab_indicator_ab_styling_abs</item>
         <item name="android:background">@drawable/tab_indicator_ab_styling_abs</item>
     </style>
     
